@@ -15,7 +15,7 @@ Profile - Heroku file <br>
 <br>
 <br>
 <br>
- ### <b>Requirments</b>
+ ### Requirments
   <hr>
 Python 3.2<br>
 django 2.2<br>
@@ -23,9 +23,9 @@ bootstrap 4.<br>
 <br>
 <br>
 <br>
- ### <b>Live Project</b>
+ ### Live Project
   <hr>
 
 URL - https://thistodoo.herokuapp.com <br>
 
---------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
