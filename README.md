@@ -1,5 +1,7 @@
-#Whattodoo-TodoApp_with_Django-Bootstrap <br>
+# Todo Web App with Django & Bootstrap <br>
 This is Simple CRUD project .
+<br>
+<br>
 <br>
    <b>Folder Details</b>
   <hr>
@@ -10,11 +12,17 @@ templates - All the html code are in here ( exa.html is just for practice purpos
 sqlite - Basic Django database<br>
 manage.py - Basic Dajango run file<br>
 Profile - Heroku file <br>
+<br>
+<br>
+<br>
    <b>Requirments</b>
   <hr>
 Python 3.2<br>
 django 2.2<br>
 bootstrap 4.<br>
+<br>
+<br>
+<br>
    <b>Live Project</b>
   <hr>
 
