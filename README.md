@@ -1,7 +1,8 @@
 # ToDo_Django-Bootstrap
 This is Simple CRUD project .
 <br>
-..............................................Folder Details.............................................. <br>
+  <h4> <b>Folder Details</b> </h4>
+  <hr>
 Todo - This is the main django app<br>
 main - project file<br>
 static - doesn't have anything but if anyone want further CSS and javascript work , files have to be here<br>
