@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class='row mt-4'>
+    <div class='col'>
+        <h2>Add Task :</h2>
+                <form class='form-inline'action='button/' method='POST'>
+                   <input type="text" class="form-control mb-2 mr-sm-2" placeholder="text here..." name="thing">
+                   <button type="submit" class="btn btn-primary mb-2" >Add</button>
+                                                        </form>
+   </div>
+   </div>
+   <div class='col mt-4'>
+       <ul class="list-group">
+  {% for todo_item in todo %}
+  <li class="list-group-item list-group-item-primary">{{ todo_item.text }}
+     <div class="float-right">
+      <form   action="delete/{{todo_item.id}}/" method="POST" >
+        <button  type="submit" class="btn btn-danger btn-sm">Delete</button>
+      </form>
+
+     </div>
+  </li>
+  {% endfor%}
+
+</ul>
+   </div>
+
+{% endblock content %}
+
